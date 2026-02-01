@@ -5,5 +5,7 @@ to quickly convert recipes online to json format.
 
 Attempted to use gemini but got pretty inaccurate results.
 
-Simply run `pip install -r requirements.txt`, put in a list of the recipes you want saved to `/recipes/` and 
-run `python scrape-recipe.py` to get the json files. 
+Simply put in a list of the recipes you want to the `main.py` file (which will be saved
+ to `/recipes/`) and then run `uv run main.py`.
+
+ You can then upload these recipes to google drive by running `uv run upload-to-drive.py`.

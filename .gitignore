@@ -39,3 +39,7 @@ coverage.xml
 # Misc
 .DS_Store
 Thumbs.db
+
+# Google Drive Credentials
+token.json
+credentials.json
